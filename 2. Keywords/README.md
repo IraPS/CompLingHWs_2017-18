@@ -1,2 +1,11 @@
-The goal was to try using betweeness centrality of terms candidates' graphs as a factor of term extracting.
-The script first does a preprocessing of texts by tokenization and creates a TfIdf-matrix for a text basing on the
+The goal was to try using betweenness centrality of terms candidates' graphs' nodes as a factor of term extracting.
+
+The initial plan was to calculate tf-idf for documents, choose candidates from the top of tf-idf matrices for each text, create graphs basing on these candidates and filter the terms by their betweenness centrality. But my laptop was dying from calculating tf-idf :(
+
+So I put this version in "correct_tf_idf.py" but didn't succeed running it even on test material.
+
+The current script ("main.py") calculates tf-idf for each document for ngrams from 1 to 4 assuming that one document as the whole collection. Looking into results it seems like it helps extract some kind of keywords for the document ven though it's a fake tf-idf.
+
+The script has two parameters that can be modified: turning on and off lowercase and removing or keeping stopwrods. The stopwords' list is taken from sklearn library.
+
+
