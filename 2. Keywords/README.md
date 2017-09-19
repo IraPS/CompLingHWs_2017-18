@@ -6,7 +6,7 @@ So I put this version in "correct_tf_idf.py" but I didn't succeed running it eve
 
 The current script ("main.py") calculates tf-idf for each document for ngrams from 1 to 4 assuming that one document is the whole collection. Looking into results it seems like it helps extracting some kind of keywords for the document even though it's a fake tf-idf. The algorighm was tested on 23 documents.
 
-The script has a parameter that can be modified: removing or keeping stopwrods. The stopwords' list is taken from Sklearn library. The graphs are created and betweenness centrality is calculated with Networkx library. 
+The script has a parameter that can be modified: removing or keeping stopwrods. The stopwords' list is taken from Sklearn library. The graphs are created and betweenness centrality is calculated with Networkx library. The graphs are creating basing on the coocurence matrix for each candidate in each document, the edges' weights' are the number of sentences where candidates appear together in a text.
 
 The (rough) evalutation metrics are calcaulated the following way:
 
