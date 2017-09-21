@@ -88,7 +88,7 @@ def get_top_betweenness_centrality(filename, lower, sw):
     bc = get_betweenness_centrality(filename, lower, sw)
     candidates = create_coocurence_matrix(filename, lower, sw)[0]
     nodes_by_betweenness_centrality = sorted(bc.items(), key=operator.itemgetter(1), reverse=True)
-    top_betweenness_centrality = [candidates[candidates.index(t[0])] for t in nodes_by_betweenness_centrality[:5]]
+    top_betweenness_centrality = [candidates[candidates.index(t[0])] for t in nodes_by_betweenness_centrality[:15]]
     return top_betweenness_centrality
 
 
@@ -122,15 +122,15 @@ def generate_metrics(filename, lower, sw):
     '''
     return precision, recall, F1
 
-results = open('metrics.csv', 'w', encoding='utf-8')
+results = open('tfidf_plus_centrality_without_sw_metrics.csv', 'w', encoding='utf-8')
 results.write('Filename;Precision;Recall;F1\n')
 
 for file in os.listdir('./dataset'):
     print(file)
     if file.endswith('.txt'):
         file = file.split('.txt')[0]
-        draw_graph('./dataset/' + file, file, False, False)
-        metrics = generate_metrics('./dataset/' + file, False, False)
+        draw_graph('./dataset/' + file, file, True, True)
+        metrics = generate_metrics('./dataset/' + file, True, True)
         results.write(file + ';' + str(metrics[0]) + ';' + str(metrics[1]) + ';' + str(metrics[2]) + '\n')
         # generate_metrics('./dataset/' + file)
 

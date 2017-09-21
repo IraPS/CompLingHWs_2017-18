@@ -41,12 +41,13 @@ def create_tfidf_matrix(filename, all_texts, lower, sw):
     feature_index = tfidf_matrix[0, :].nonzero()[1]
     tfidf_scores = zip(feature_index, [tfidf_matrix[0, x] for x in feature_index])
     matrix = [(feature_names[i], s) for (i, s) in tfidf_scores]
+    matrix = sorted(matrix, key=lambda x: x[1], reverse=True)
     return matrix
 
 
 def create_coocurence_matrix(filename, all_texts, lower, sw):
     sentences = get_text_and_sentences(filename, all_texts, sw)[1]
-    matrix = create_tfidf_matrix(filename, all_texts, lower, sw)
+    matrix = create_tfidf_matrix(filename, all_texts, lower, sw)[:100]
     candidates = [w[0] for w in matrix]
     cooucurence = list()
     for cand in candidates:
@@ -136,8 +137,8 @@ for file in os.listdir('./test'):
     print(file)
     if file.endswith('.txt'):
         file = file.split('.txt')[0]
-        draw_graph('./test/' + file, file, './test', False, False)
-        metrics = generate_metrics('./test/' + file, './test', False, False)
+        draw_graph('./test/' + file, file, './test', True, True)
+        metrics = generate_metrics('./test/' + file, './test', True, True)
         results.write(file + ';' + str(metrics[0]) + ';' + str(metrics[1]) + ';' + str(metrics[2]) + '\n')
         # generate_metrics('./dataset/' + file)
 
