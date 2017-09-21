@@ -2,13 +2,15 @@ I was really trying to do someting unteresting though I didn't succeed because m
 
 The idea was to compare tf-idf term extraction results to graphs metrics results where nodes are text's ngrams (https://github.com/IraPS/CompLingHWs_2017-18/blob/master/2.%20Keywords/comparing_tfidf_and_centrality.py).
 
-But I couldn't run the cooccurrence matrix creation (for graph construction) on all ngrams (even lowering the ngrams range to (1, 2)).
+But I couldn't run the co-occurrence matrix creation (for graph construction) on all ngrams (even lowering the ngrams range to (1, 2)).
+
+(Two terms were considered to co-occur if they appeared together in one sentence).
 
 So what I had to do is chosing some amount of ngrams (range (1, 4)) and it shouldn't have been random (as I understand) and create graphs on them. When I was creating graph on top-500 tf-idf for the text, the results of this was completely identical for both centralities I used (betweenness and degree) and top of tf-idf ngrams: https://github.com/IraPS/CompLingHWs_2017-18/blob/master/2.%20Keywords/comparing_tfidf_and_centrality(toptfidf)_metrics.csv.
 
-So I tried using 250-top and 250-bottom tf-idf ngrams for coocurence calculation which didn't change the situation: https://github.com/IraPS/CompLingHWs_2017-18/blob/master/2.%20Keywords/comparing_tfidf_and_centrality(topdowntfidf)_metrics.csv.
+So I tried using 250-top and 250-bottom tf-idf ngrams for co-occurrence calculation which didn't change the situation: https://github.com/IraPS/CompLingHWs_2017-18/blob/master/2.%20Keywords/comparing_tfidf_and_centrality(topdowntfidf)_metrics.csv.
 
-I'd appreciate advice on how to complete this idea - built-in cooccurrence matrix calculation or other tricks? or just a better algorithm for cooccurrence calculation?
+I'd appreciate advice on how to complete this idea - built-in co-occurrence matrix calculation or other tricks? or just a better algorithm for co-occurrence calculation?
 
 After all I decided to compare these results (basically tf-idf) to Rake (https://pypi.python.org/pypi/rake-nltk), and Rake preformed really bad. It didn't introduce any prepoccessing as it seemed and results included symbols or the ngrams were very long and could include just whole unique clauses from the texts.
 
@@ -36,5 +38,5 @@ The method should be aimed on a particular genre of texts, so the preliminary st
 
 Also the golden standard itself is questionable. It's clear how people write the keywords for articles but seems that sometimes these aren't neccessary based on lexical scope of a document and, for example, keywords often have both terms like "roses" and "red roses". If we're aiming on good metrics it's not clear how we draw the line and decide what to take or ditch out of these two.
 
-And some ngram graphs of those "fake" nonzero tf-idf terms from the second variant:
+I had some ngram graphs of those "fake" nonzero tf-idf terms from the second variant, just for fun, you cannot see much there:
 https://github.com/IraPS/CompLingHWs_2017-18/tree/master/2.%20Keywords/graphs
