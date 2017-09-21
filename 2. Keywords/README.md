@@ -35,3 +35,6 @@ Removing the stopwords seems to be essential but looking at the dataset it's que
 The method should be aimed on a particular genre of texts, so the preliminary study of the material is initial. And also, evaluation metrics should be thoroughly developed (not taking into account stopwrods in both "predicted" and "true",  soften or stiffen evaluation depending on which POS is missing when it's a partial match, setting the requested proportion of partical match, and etc.).
 
 Also the golden standard itself is questionable. It's clear how people write the keywords for articles but seems that sometimes these aren't neccessary based on lexical scope of a document and, for example, keywords often have both terms like "roses" and "red roses". If we're aiming on good metrics it's not clear how we draw the line and decide what to take or ditch out of these two.
+
+And some ngram graphs of those "fake" nonzero tf-idf terms from the second variant:
+https://github.com/IraPS/CompLingHWs_2017-18/tree/master/2.%20Keywords/graphs
