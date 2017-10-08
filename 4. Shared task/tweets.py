@@ -1,18 +1,26 @@
-from sklearn.feature_extraction.text import CountVectorizer
-from sklearn.feature_extraction.text import TfidfTransformer
-from sklearn.linear_model import SGDClassifier
-from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import GridSearchCV
+from sklearn.feature_extraction.text import CountVectorizer, TfidfTransformer
+from sklearn.linear_model import SGDClassifier, LogisticRegression
+from sklearn.model_selection import GridSearchCV, train_test_split
 from sklearn.metrics import confusion_matrix
 from sklearn.neural_network import MLPClassifier
-import itertools
-import numpy as np
-import matplotlib.pyplot as plt
+from sklearn import metrics
 from sklearn.pipeline import Pipeline
+import itertools
 from pprint import pprint
 from time import time
-from sklearn.model_selection import train_test_split
-from sklearn import metrics
+import numpy as np
+import matplotlib.pyplot as plt
+import string
+from nltk.corpus import stopwords as sw, wordnet as wn
+from nltk import wordpunct_tokenize, WordNetLemmatizer, sent_tokenize, pos_tag
+from nltk.stem import LancasterStemmer
+
+analyzer = CountVectorizer().build_analyzer()
+stemmer = LancasterStemmer()
+
+
+def stemmed(doc):
+    return (stemmer.stem(w) for w in analyzer(doc))
 
 
 def plot_confusion_matrix(cm, classes,
@@ -47,11 +55,6 @@ def plot_confusion_matrix(cm, classes,
     plt.ylabel('True label')
     plt.xlabel('Predicted label')
 
-
-text_clf = Pipeline([('vect', CountVectorizer()),
-                    ('tfidf', TfidfTransformer(norm='l2', sublinear_tf=True)),
-                    ('clf', MLPClassifier())
-                     ])
 '''
 parameters = {
     'vect__max_features': (None, 100, 300, 500, 1000),
@@ -78,8 +81,8 @@ for param_name in sorted(parameters.keys()):
     print("\t%s: %r" % (param_name, best_parameters[param_name]))
 '''
 
-X = open('./300K/tweets.text', 'r', encoding='utf-8').readlines()
-y = open('./300K/tweets.labels', 'r', encoding='utf-8').readlines()
+X = open('./500K/tweets.text', 'r', encoding='utf-8').readlines()
+y = open('./500K/tweets.labels', 'r', encoding='utf-8').readlines()
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=42)
 
@@ -90,12 +93,12 @@ true.close()
 
 for clf in [SGDClassifier, LogisticRegression]:
     print(str(clf))
-    text_clf = Pipeline([('vect', CountVectorizer()),
+    text_clf = Pipeline([('vect', CountVectorizer(analyzer=stemmed, stop_words=sw.words('english'))),
                         ('tfidf', TfidfTransformer(norm='l2', sublinear_tf=True)),
                         ('clf', clf())])
     text_clf.fit(X_train, y_train)
     predicted = text_clf.predict(X_test)
-    pred = open('predicted_keys_' + str(clf) + '.txt', 'w', encoding='utf-8')
+    pred = open('predicted_keys_' + str(clf) + '_500K.txt', 'w', encoding='utf-8')
     for i in predicted:
         pred.write(i)
     pred.close()
@@ -107,5 +110,5 @@ for clf in [SGDClassifier, LogisticRegression]:
     plot_confusion_matrix(cnf_matrix, classes=class_names, normalize=True,
                           title='Normalized confusion matrix')
     plt.show()
-    plt.savefig(str(clf) + '_cnf_matrix.png')
+    plt.savefig(str(clf) + '_cnf_matrix_500K.png')
     print('\n\n\n')
