@@ -13,3 +13,5 @@ _two_hearts_
 _blue_heart_ - very bad
 
 _smiling_face_with_smiling_eyes_ - as it seems to be used in many kinds of messages
+
+All is done with the script "tweets.py", the confusion matrices are SGD_cnf_matrix.png and LogReg_cng_matrix.png.
