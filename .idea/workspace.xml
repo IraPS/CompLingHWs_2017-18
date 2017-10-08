@@ -2,111 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d8cebf7-40ef-47de-9c53-f805fdfe2d6d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/correct_tf_idf.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/dataset/C-22.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/dataset/C-22.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/dataset/C-23.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/dataset/C-23.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/dataset/C-27.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/dataset/C-27.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/dataset/C-28.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/dataset/C-28.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/dataset/C-29.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/dataset/C-29.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/dataset/C-30.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/dataset/C-30.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/dataset/C-31.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/dataset/C-31.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/dataset/C-32.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/dataset/C-32.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/dataset/C-33.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/dataset/C-33.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/dataset/C-34.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/dataset/C-34.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/dataset/C-36.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/dataset/C-36.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/dataset/C-38.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/dataset/C-38.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/dataset/C-40.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/dataset/C-40.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs/C-22_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs/C-23_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs/C-27_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs/C-28_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs/C-29_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs/C-30_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs/C-31_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs/C-32_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs/C-33_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs/C-34_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs/C-36_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs/C-38_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs/C-40_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower/C-14_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower/C-17_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower/C-18_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower/C-19_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower/C-20_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower/C-22_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower/C-23_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower/C-27_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower/C-28_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower/C-29_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower/C-30_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower/C-31_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower/C-32_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower/C-33_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower/C-34_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower/C-36_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower/C-38_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower/C-3_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower/C-40_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower/C-4_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower/C-6_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower/C-8_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower/C-9_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower_sw/C-14_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower_sw/C-17_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower_sw/C-18_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower_sw/C-19_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower_sw/C-1_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower_sw/C-20_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower_sw/C-22_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower_sw/C-23_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower_sw/C-27_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower_sw/C-28_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower_sw/C-29_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower_sw/C-30_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower_sw/C-31_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower_sw/C-32_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower_sw/C-33_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower_sw/C-34_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower_sw/C-36_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower_sw/C-38_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower_sw/C-3_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower_sw/C-40_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower_sw/C-4_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower_sw/C-6_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower_sw/C-8_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/graphs_lower_sw/C-9_graph.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/main.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/metrics_lower.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/metrics_lower_sw.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/metrics_test.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/test/C-3.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/test/C-3.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/test/C-4.key" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/2. Keywords/test/C-4.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2. Keywords/graphs/C-14_graph.png" afterPath="$PROJECT_DIR$/2. Keywords/graphs/C-14_graph.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2. Keywords/graphs/C-17_graph.png" afterPath="$PROJECT_DIR$/2. Keywords/graphs/C-17_graph.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2. Keywords/graphs/C-18_graph.png" afterPath="$PROJECT_DIR$/2. Keywords/graphs/C-18_graph.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2. Keywords/graphs/C-19_graph.png" afterPath="$PROJECT_DIR$/2. Keywords/graphs/C-19_graph.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2. Keywords/graphs/C-20_graph.png" afterPath="$PROJECT_DIR$/2. Keywords/graphs/C-20_graph.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2. Keywords/graphs/C-3_graph.png" afterPath="$PROJECT_DIR$/2. Keywords/graphs/C-3_graph.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2. Keywords/graphs/C-4_graph.png" afterPath="$PROJECT_DIR$/2. Keywords/graphs/C-4_graph.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2. Keywords/graphs/C-6_graph.png" afterPath="$PROJECT_DIR$/2. Keywords/graphs/C-6_graph.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2. Keywords/graphs/C-8_graph.png" afterPath="$PROJECT_DIR$/2. Keywords/graphs/C-8_graph.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2. Keywords/graphs/C-9_graph.png" afterPath="$PROJECT_DIR$/2. Keywords/graphs/C-9_graph.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/2. Keywords/comparing_tfidf_and_centrality_all_ngrams.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="CompLingHWs_2017-18.iws" />
@@ -131,14 +27,24 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="tfidf_plus_centrality.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2. Keywords/tfidf_plus_centrality.py">
+      <file leaf-file-name="comparing_tfidf_and_centrality_all_ngrams.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2. Keywords/comparing_tfidf_and_centrality_all_ngrams.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.6550218" vertical-offset="1222" max-vertical-offset="2130">
-              <caret line="132" column="20" selection-start-line="132" selection-start-column="20" selection-end-line="132" selection-end-column="20" />
+            <state vertical-scroll-proportion="-0.08522727" vertical-offset="1050" max-vertical-offset="3600">
+              <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
               <folding>
                 <element signature="e#0#59#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="C-17.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2. Keywords/test/C-17.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="690">
+              <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -163,8 +69,9 @@
         <option value="$PROJECT_DIR$/2. Keywords/test/C-3.txt" />
         <option value="$PROJECT_DIR$/2. Keywords/test/C-4.txt" />
         <option value="$PROJECT_DIR$/2. Keywords/gensim.py" />
-        <option value="$PROJECT_DIR$/2. Keywords/comparing_tfidf_and_centrality.py" />
         <option value="$PROJECT_DIR$/2. Keywords/tfidf_plus_centrality.py" />
+        <option value="$PROJECT_DIR$/2. Keywords/comparing_tfidf_and_centrality.py" />
+        <option value="$PROJECT_DIR$/2. Keywords/comparing_tfidf_and_centrality_all_ngrams.py" />
       </list>
     </option>
   </component>
@@ -195,7 +102,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -228,8 +134,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CompLingHWs_2017-18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CompLingHWs_2017-18" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2. Keywords" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -245,26 +170,7 @@
       <console-settings />
     </option>
   </component>
-  <component name="RunManager" selected="Python.tfidf_plus_centrality">
-    <configuration default="false" name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2. Keywords" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="CompLingHWs_2017-18" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2. Keywords/main.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.comparing_tfidf_and_centrality_all_ngrams">
     <configuration default="false" name="comparing_tfidf_graph_metrics" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -335,6 +241,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="CompLingHWs_2017-18" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2. Keywords/tfidf_plus_centrality.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="comparing_tfidf_and_centrality_all_ngrams" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2. Keywords" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="CompLingHWs_2017-18" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2. Keywords/comparing_tfidf_and_centrality_all_ngrams.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -464,19 +389,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.main" />
-      <item index="1" class="java.lang.String" itemvalue="Python.comparing_tfidf_graph_metrics" />
-      <item index="2" class="java.lang.String" itemvalue="Python.comparing_tfidf_and_centrality" />
-      <item index="3" class="java.lang.String" itemvalue="Python.gensim" />
-      <item index="4" class="java.lang.String" itemvalue="Python.tfidf_plus_centrality" />
+      <item index="0" class="java.lang.String" itemvalue="Python.comparing_tfidf_graph_metrics" />
+      <item index="1" class="java.lang.String" itemvalue="Python.comparing_tfidf_and_centrality" />
+      <item index="2" class="java.lang.String" itemvalue="Python.gensim" />
+      <item index="3" class="java.lang.String" itemvalue="Python.tfidf_plus_centrality" />
+      <item index="4" class="java.lang.String" itemvalue="Python.comparing_tfidf_and_centrality_all_ngrams" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.tfidf_plus_centrality" />
-        <item index="1" class="java.lang.String" itemvalue="Python.comparing_tfidf_and_centrality" />
-        <item index="2" class="java.lang.String" itemvalue="Python.gensim" />
-        <item index="3" class="java.lang.String" itemvalue="Python.comparing_tfidf_graph_metrics" />
-        <item index="4" class="java.lang.String" itemvalue="Python.main" />
+        <item index="0" class="java.lang.String" itemvalue="Python.comparing_tfidf_and_centrality_all_ngrams" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tfidf_plus_centrality" />
+        <item index="2" class="java.lang.String" itemvalue="Python.comparing_tfidf_and_centrality" />
+        <item index="3" class="java.lang.String" itemvalue="Python.gensim" />
+        <item index="4" class="java.lang.String" itemvalue="Python.comparing_tfidf_graph_metrics" />
       </list>
     </recent_temporary>
   </component>
@@ -495,27 +420,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32883242" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33424658" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33424658" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -539,6 +464,59 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/2. Keywords/comparing_tfidf_and_centrality_all_ngrams.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3600">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2. Keywords/test/C-17.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="690">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2. Keywords/comparing_tfidf_and_centrality_all_ngrams.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3600">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2. Keywords/test/C-17.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="690">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2. Keywords/comparing_tfidf_and_centrality_all_ngrams.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3615">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2. Keywords/tfidf_plus_centrality.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2130">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../../../Бакалавриат/2015-2016/Programming/github desktop/Suspense/tf_idf.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="276" max-vertical-offset="945">
@@ -550,7 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="3112" max-vertical-offset="19800">
           <caret line="237" column="0" selection-start-line="237" selection-start-column="0" selection-end-line="237" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -558,7 +535,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1687" max-vertical-offset="2145">
           <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -566,7 +542,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="13935">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -574,7 +549,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="458">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -582,7 +556,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="458">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -590,17 +563,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33178654" vertical-offset="4237" max-vertical-offset="13290">
           <caret line="292" column="28" selection-start-line="292" selection-start-column="28" selection-end-line="292" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2. Keywords/comparing_tfidf_and_centrality.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1725" max-vertical-offset="3630">
-          <caret line="230" column="38" selection-start-line="230" selection-start-column="38" selection-end-line="230" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#59#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -608,7 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="458">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -617,26 +578,46 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/2. Keywords/tfidf_plus_centrality.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0767045" vertical-offset="1222" max-vertical-offset="2130">
+          <caret line="132" column="20" selection-start-line="132" selection-start-column="20" selection-end-line="132" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/2. Keywords/comparing_tfidf_and_centrality(topdowntfidf)_metrics.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06550218" vertical-offset="0" max-vertical-offset="458">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2. Keywords/comparing_tfidf_and_centrality(toptfidf)_metrics.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.06550218" vertical-offset="0" max-vertical-offset="458">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.23504274" vertical-offset="0" max-vertical-offset="702">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2. Keywords/comparing_tfidf_and_centrality.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4017094" vertical-offset="2913" max-vertical-offset="3630">
+          <caret line="213" column="28" selection-start-line="0" selection-start-column="0" selection-end-line="236" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2. Keywords/test/C-17.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="690">
+          <caret line="40" column="24" selection-start-line="40" selection-start-column="24" selection-end-line="40" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2. Keywords/tfidf_plus_centrality.py">
+    <entry file="file://$PROJECT_DIR$/2. Keywords/comparing_tfidf_and_centrality_all_ngrams.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.6550218" vertical-offset="1222" max-vertical-offset="2130">
-          <caret line="132" column="20" selection-start-line="132" selection-start-column="20" selection-end-line="132" selection-end-column="20" />
+        <state vertical-scroll-proportion="-0.08522727" vertical-offset="1050" max-vertical-offset="3600">
+          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding>
             <element signature="e#0#59#0" expanded="true" />
           </folding>
