@@ -1,17 +1,11 @@
 from conllu.parser import parse
-from sklearn.linear_model import SGDClassifier, LogisticRegression
-from sklearn.metrics import confusion_matrix
-from sklearn.neural_network import MLPClassifier
+from sklearn.linear_model import LogisticRegression
 from sklearn import metrics
 from sklearn.neural_network import MLPClassifier
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.svm import SVC
-from sklearn.gaussian_process import GaussianProcessClassifier
-from sklearn.gaussian_process.kernels import RBF
 from sklearn.tree import DecisionTreeClassifier
-from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.naive_bayes import GaussianNB
-from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
 
 
 def collect_features(data):
@@ -72,11 +66,12 @@ classifiers = [
     DecisionTreeClassifier(max_depth=5),
     RandomForestClassifier(max_depth=5, n_estimators=10, max_features=1),
     MLPClassifier(alpha=1),
-    GaussianNB()]
+    GaussianNB(),
+    LogisticRegression()]
 
 names = ["Nearest Neighbors",
          "Decision Tree", "Random Forest", "Neural Net",
-         "Naive Bayes"]
+         "Naive Bayes", "Logistic Regression"]
 
 
 for name, clf in zip(names, classifiers):
@@ -85,29 +80,5 @@ for name, clf in zip(names, classifiers):
     print('Predicting...')
     prediction = clf.predict(X_test)
     print(name, round(metrics.accuracy_score(y_test, prediction), 2), '\n')
-
-
-'''
-gnb = GaussianNB()
-model = gnb.fit(X_train, y_train)
-preds = gnb.predict(X_test)
-print(round(metrics.accuracy_score(y_test, preds), 2))
-
-dec_tree = DecisionTreeClassifier()
-model = dec_tree.fit(X_train, y_train)
-preds = dec_tree.predict(X_test)
-print(round(metrics.accuracy_score(y_test, preds), 2))
-
-rand_for = RandomForestClassifier(max_depth=2, random_state=0)
-model = rand_for.fit(X_train, y_train)
-preds = rand_for.predict(X_test)
-print(round(metrics.accuracy_score(y_test, preds), 2))
-
-rand_for = RandomForestClassifier(max_depth=2, random_state=0)
-model = rand_for.fit(X_train, y_train)
-preds = rand_for.predict(X_test)
-print(round(metrics.accuracy_score(y_test, preds), 2))
-
-# confusion_matrix(y_true, y_pred, labels=["ant", "bird", "cat"])
-
-'''
+    if name == "Logistic Regression":
+        print(clf.coef_)
