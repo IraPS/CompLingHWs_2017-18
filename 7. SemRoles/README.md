@@ -11,4 +11,4 @@ I trained several classifiers, the result was:
 | Naive Bayes | 0.26 |
 | Logistic Regression | 0.48 |
 
-I looked into the weights regression model assigns to the features but as it is multi-class labelling, it the one vs. all approach and we cannot establish the most valuable features for the whole corpus. All the weights are quite low, from some observations: position is the most important for Punc and VerbForm for Root (which makes sense).
+I looked into the weights regression model assigns to the features but as it is multi-class labelling, it is "one vs. all" approach and we cannot establish the most valuable features for the whole corpus. All the weights are quite low, from some observations: position is the most important for Punc and VerbForm for Root (which makes sense).
