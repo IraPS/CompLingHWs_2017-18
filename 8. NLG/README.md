@@ -1,11 +1,10 @@
 I took the 1triple train-set on astronauts. My bot can answer questions about several astronauts and spacecrafts.
 
-The questions the bot answers relate only to the subjects of tripples (e.g. basing on the tripple  "Alan_Bean | birthPlace | Wheeler,_Texas"
-bot will answer questions about Alan Bean but not about Wheeler / Texas.
+The questions the bot answers relate only to the subjects of tripples (e.g. basing on the tripple  "Alan_Bean | birthPlace | Wheeler,_Texas" bot will answer questions about Alan Bean but not about Wheeler / Texas)
 
-If the tripple with the question subject and relation exists, bot randomly chooses one of the answers provided in the data.
+If the tripple with the question's subject and relation exists, bot randomly chooses one of the answers provided in the data.
 
-If the bot doesn't know the answers, it suggests googling the question and provides a google search link.
+If the bot doesn't know an answer, it suggests googling the question and provides a google search link.
 
 The questions that were tested:
 
