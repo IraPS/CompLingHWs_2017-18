@@ -41,7 +41,6 @@ objects = ['Alan Bean', "Alan Bean's", 'Alan Shepard', "Alan Shepard's",
            'Apollo 11', 'Apollo 12', 'Apollo 8', 'Buzz Aldrin', "Buzz Aldrin's",
            'Elliot See', "Elliot See's", 'William Anders', "'William Anders'"]
 
-
 class GetOutOfLoop(Exception):
     def __init__(self, q):
         self.sorry = "Sorry, I don't know anything about it.."
