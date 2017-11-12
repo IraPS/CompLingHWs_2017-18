@@ -1,4 +1,6 @@
-I took the 1triple train-set on astronauts. My bot can answer questions about several astronauts and spacecrafts.
+I've chosen the 1triple train-set on astronauts. You can create a graph from this (or any of 1triple data) with "create_graph.py"). The graph for astronauts is available at "astronauts_graph.png".
+
+The Q-A bot is available at "bot.py". My bot can answer questions about several astronauts and spacecrafts.
 
 The questions the bot answers relate only to the subjects of tripples (e.g. basing on the tripple  "Alan_Bean | birthPlace | Wheeler,_Texas" bot will answer questions about Alan Bean but not about Wheeler / Texas)
 
