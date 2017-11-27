@@ -1,0 +1,3 @@
+#first match identical proper markables
+form="proper";form="proper"&text=$1;100;nopropagate
+entity="person";entity="person"&text=$1;100;nopropagate
